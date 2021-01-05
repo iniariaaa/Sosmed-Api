@@ -32,8 +32,8 @@ app.get("/api/searchrepo", (req, res) => {
           res.status(400).send({
             code: res.statusCode,
             success: false,
-            message: "Query string can not be empty!",
-            creator: "Satya Wikananda"
+            message: "Query Gak Boleh Kosong!",
+            creator: "Zhirrr"
           });
         }else{
           GithubWrapper.searchRepo(repo)
@@ -43,7 +43,7 @@ app.get("/api/searchrepo", (req, res) => {
             .catch((err) => console.log(err));
         }
       } catch (e) {
-        res.status(400).send("Something went wrong");
+        res.status(400).send("Server Bermasalah");
       }
     });
 });
@@ -57,8 +57,8 @@ app.get("/api/detailuser", (req, res) => {
           res.status(400).send({
             code: res.statusCode,
             success: false,
-            message: "Query string can not be empty!",
-            creator: "Satya Wikananda"
+            message: "Query Gak Boleh Kosong!",
+            creator: "Zhirrr"
           });
         }else{
           GithubWrapper.searchUser(user)
@@ -68,7 +68,7 @@ app.get("/api/detailuser", (req, res) => {
             .catch((err) => console.log(err));
         }
       } catch (e) {
-        res.status(400).send("Something went wrong");
+        res.status(400).send("Server Bermasalah");
       }
     });
 });
