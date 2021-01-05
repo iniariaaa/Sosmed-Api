@@ -17,7 +17,7 @@
                     data.message = "ok"
                     data.totalCount = response.data.total_count
                     data.items = []
-                    data.creator = "Satya Wikananda"
+                    data.creator = "Zhirrr"
 
                     if(data.totalCount != 0){
                         results.forEach((res) => {
@@ -62,7 +62,7 @@
                     reject({
                         code: 500,
                         success: false,
-                        message: "Something went wrong"
+                        message: "Server Bermasalah"
                     })
                 }
             })
