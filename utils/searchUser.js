@@ -38,14 +38,14 @@ const searchRepo = (user) => {
                        updatedAt: results.updated_at
                    }
 
-                   data.creator = "Satya wikananda"
+                   data.creator = "Zhirrr"
                    console.log(results)
                    resolve(data)
                }else{
                    reject({
                        code: 500,
                        success: false,
-                       message: "Something went wrong"
+                       message: "Server Bermasalah"
                    })
                }
            })
