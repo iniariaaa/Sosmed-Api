@@ -24,11 +24,11 @@ app.get("/", (req, res) => {
 });
 
 app.get("/api/searchnabi", (req, res) => {
-    const user = req.query.q
+    const nabi = req.query.q
     res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
     setImmediate(() => {
       try {
-        if(user == '' || user == null){
+        if(nabi == '' || nabi == null){
           res.status(400).send({
             code: res.statusCode,
             success: false,
@@ -43,7 +43,7 @@ app.get("/api/searchnabi", (req, res) => {
             .catch((err) => console.log(err));
         }
       } catch (e) {
-        res.status(400).send("Server Bermasalah");
+        res.status(400).send("Server Bermasalah Gan");
       }
     });
 });
