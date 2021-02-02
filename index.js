@@ -5,5 +5,5 @@
 
  const KisahNabi = require('./utils')
 
- KisahNabi.searchNabi('anitrendz+scraper')
+ KisahNabi.searchNabi('kisahnabi+scraper')
     .then(data => console.log(data))
