@@ -1,12 +1,10 @@
 /**
- * @author Satya Wikananda <satyawikananda456@gmail.com>
+ * @author Zahir Hadi Athallah <zhirrrstudio@gmail.com>
  * @license MIT
  */
 
- const searchRepo = require('./searchRepo.js')
- const searchUser = require('./searchUser.js')
+ const searchNabi = require('./searchNabi.js')
 
  module.exports = {
-     searchRepo,
-     searchUser
+     searchNabi
  }
