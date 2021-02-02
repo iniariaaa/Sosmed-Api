@@ -5,7 +5,7 @@
 
 const axios = require('axios');
 
-const searchRepo = (nabi) => {
+const searchNabi = (nabi) => {
    return new Promise( async (resolve, reject) => {
        await axios.get(`https://raw.githubusercontent.com/Zhirrr/My-SQL-Results/main/kisahnabi/${nabi}.json`)
            .then(response => {
