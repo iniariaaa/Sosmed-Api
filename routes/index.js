@@ -5,7 +5,7 @@ const cors = require("cors");
 const http = require("http");
 const https = require("https");
 const path = require("path")
-const GithubWrapper = require('../utils')
+const KisahNabi = require('../utils')
 
 http.globalAgent.maxSockets = Infinity;
 https.globalAgent.maxSockets = Infinity;
@@ -23,32 +23,7 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/api/searchrepo", (req, res) => {
-    const repo = req.query.q
-    res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
-    setImmediate(() => {
-      try {
-        if(repo == '' || repo == null){
-          res.status(400).send({
-            code: res.statusCode,
-            success: false,
-            message: "Query Gak Boleh Kosong!",
-            creator: "Zhirrr"
-          });
-        }else{
-          GithubWrapper.searchRepo(repo)
-            .then((data) => {
-              res.json(data);
-            })
-            .catch((err) => console.log(err));
-        }
-      } catch (e) {
-        res.status(400).send("Server Bermasalah");
-      }
-    });
-});
-
-app.get("/api/detailuser", (req, res) => {
+app.get("/api/searchnabi", (req, res) => {
     const user = req.query.q
     res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
     setImmediate(() => {
@@ -61,7 +36,7 @@ app.get("/api/detailuser", (req, res) => {
             creator: "Zhirrr"
           });
         }else{
-          GithubWrapper.searchUser(user)
+          KisahNabi.searchNabi(nabi)
             .then((data) => {
               res.json(data);
             })
