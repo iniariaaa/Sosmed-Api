@@ -1,5 +1,5 @@
 /**
- * @author Satya Wikananda <satyawikananda456@gmail.com>
+ * @author Zahir Hadi Athallah <zhirrrstudio@gmail.com>
  * @license MIT
  */
 
