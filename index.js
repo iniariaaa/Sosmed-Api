@@ -1,9 +1,9 @@
 /**
- * @author Satya Wikananda <satyawikananda456@gmail.com>
+ * @author Zahir Hadi Athallah <zhirrrstudio@gmail.com>
  * @license MIT
  */
 
- const GithubWrapper = require('./utils')
+ const KisahNabi = require('./utils')
 
- GithubWrapper.searchRepo('anitrendz+scraper')
+ KisahNabi.searchNabi('anitrendz+scraper')
     .then(data => console.log(data))
