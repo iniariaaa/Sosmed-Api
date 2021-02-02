@@ -17,9 +17,9 @@ const searchRepo = (nabi) => {
                    data.message = "ok"
                    data.nabi = {
                        nama: results.name,
-                       tanggal lahir: results.thn_kelahiran,
+                       lahir: results.thn_kelahiran,
                        umur: results.usia,
-                       tempat lahir: results.tmp,
+                       tempat: results.tmp,
                        image: results.image_url,
                        kisah: results.description
                    }
