@@ -9,6 +9,8 @@
 # Description
 Kisah Nabi API adalah sebuah API yg berguna untuk menampilkan Kisah dan Data Lain Dari Nabi Allah SWT
 
+Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
+
 
 | Description | Endpoint | 
 |------------ | ---------|
