@@ -5,7 +5,7 @@ const cors = require("cors");
 const http = require("http");
 const https = require("https");
 const path = require("path")
-const searchKata = require('../utils')
+const Zahir = require('../utils')
 
 http.globalAgent.maxSockets = Infinity;
 https.globalAgent.maxSockets = Infinity;
@@ -23,12 +23,12 @@ app.get("/", (req, res) => {
   });
 });
 
-app.get("/api/kbbi", (req, res) => {
-    const kata = req.query.text
+app.get("/api/tiktok", (req, res) => {
+    const url = req.query.url
     res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
     setImmediate(() => {
       try {
-        if(kata == '' || kata == null){
+        if(url == '' || url == null){
           res.status(400).send({
             code: res.statusCode,
             success: false,
@@ -36,7 +36,7 @@ app.get("/api/kbbi", (req, res) => {
             creator: "Zhirrr"
           });
         }else{
-          searchKata.KBBI(kata)
+          Zahir.Tiktok(url)
             .then((data) => {
               res.json(data);
             })
