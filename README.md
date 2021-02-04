@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Downloader Rest API Official</h1>
 
-<p>Pengen download foto atau video dari Sosmed?</p>
+<p>Pengen Download Foto Atau Video Dari Sosmed?</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 </div>
@@ -15,12 +15,14 @@ Note : Made By 13 y.o Coder
 | Description | Endpoint | 
 |------------ | ---------|
 | Tiktok | https://downloader-api-zhirrr.vercel.app/api/tiktok?url=https://www.tiktok.com/@bellapoarch/video/6871376520468794629 |
+| Facebook | https://downloader-api-zhirrr.vercel.app/api/fb?url=https://www.facebook.com/watch/?v=1393572814172251 |
 
 
 ### List Menu
 | Menu | Check | 
 |------------ | ---------|
 | Tiktok | ✔️ |
+| Facebook | ✔️ |
 
 
 # Installation
