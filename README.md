@@ -15,14 +15,14 @@ Note : Made By 13 y.o Coder
 | Description | Endpoint | 
 |------------ | ---------|
 | Tiktok | https://downloader-api-zhirrr.vercel.app/api/tiktok?url=https://www.tiktok.com/@bellapoarch/video/6871376520468794629 |
-| Facebook | https://downloader-api-zhirrr.vercel.app/api/fb?url=https://www.facebook.com/watch/?v=1393572814172251 |
+| YouTube | https://downloader-api-zhirrr.vercel.app/api/yt?url=https://youtu.be/CcEHgkoeH_s |
 
 
 ### List Menu
 | Menu | Check | 
 |------------ | ---------|
 | Tiktok | ✔️ |
-| Facebook | ✔️ |
+| YouTube | ✔️ |
 
 
 # Installation
