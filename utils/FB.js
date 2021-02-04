@@ -1,7 +1,8 @@
 const fbdl = require('fbdl-core');
 
 const FB = (url) => new Promise((resolve, reject) => {
-	if(url || url == undefined) return reject("Bejat");
+	if (url === 'undefined') { reject('masukan text nya kak.') }
+        try {
 	fbdl.getInfo(url)
 	.then(res => {
 		resolve({
