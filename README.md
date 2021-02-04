@@ -20,7 +20,7 @@ Note : Made By 13 y.o Coder
 ### List Menu
 | Menu | Check | 
 |------------ | ---------|
-| Tiktok |  |
+| Tiktok | ✔️ |
 
 
 # Installation
