@@ -8,7 +8,12 @@ const FB = (url) => new Promise((resolve, reject) => {
 			hd: res.streamURL,
 			sd: res.rawVideo
 		});
-	}).catch(err => reject(err));
+	} catch (error) {
+        reject({
+			code:400,
+			message: error
+		});
+    }
 })
 
 module.exports = FB
