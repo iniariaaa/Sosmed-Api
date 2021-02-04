@@ -1,20 +1,26 @@
 <div align="center">
-<h1>KBBI Rest API Official</h1>
+<h1>Downloader Rest API Official</h1>
 
-<p>Pengen Cek Kata Kata KBBI? Coba Pake Ini Aja Ya Bossqu</p>
+<p>Pengen download foto atau video dari Sosmed?</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 </div>
 
 # Description
-KBBI API adalah sebuah API yg berguna untuk menampilkan data KBBI Lengkap
+Downloader API adalah sebuah API yg berguna untuk mendowwnload foto atau video dari Sosmed
 
 Note : Made By 13 y.o Coder
 
 
 | Description | Endpoint | 
 |------------ | ---------|
-| Example | https://kbbi-api-zhirrr.vercel.app/api/kbbi?text=pohon |
+| Tiktok | https://downloader-api-zhirrr.vercel.app/api/tiktok?url=https://www.tiktok.com/@bellapoarch/video/6871376520468794629 |
+
+
+##List Menu
+| Menu | Check | 
+|------------ | ---------|
+| Tiktok |  |
 
 
 # Installation
