@@ -7,7 +7,7 @@
 </div>
 
 # Description
-Downloader API adalah sebuah API yg berguna untuk mendowwnload foto atau video dari Sosmed
+Downloader API adalah sebuah API yg berguna untuk mendownload foto atau video dari Sosmed
 
 Note : Made By 13 y.o Coder
 
