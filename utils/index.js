@@ -3,8 +3,8 @@
  * @license MIT
  */
 
- const KBBI = require('./KBBI.js')
+ const Tiktok = require('./Tiktok.js')
 
  module.exports = {
-     KBBI
+     Tiktok
  }
