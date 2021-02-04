@@ -1,4 +1,4 @@
-const fbdl = require("fbdl-core");
+const fbdl = require('fbdl-core');
 
 const FB = (url) => new Promise((resolve, reject) => {
 	if(!url || url == undefined) return reject("Bejat");
