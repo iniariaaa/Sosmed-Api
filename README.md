@@ -1,20 +1,20 @@
 <div align="center">
-<h1>Kisah Nabi Rest API Official</h1>
+<h1>KBBI Rest API Official</h1>
 
-<p>Pengen Tau Kisah Kisah Nabi? Coba Pake Ini Aja Ya Bossqu</p>
+<p>Pengen Cek Kata Kata KBBI? Coba Pake Ini Aja Ya Bossqu</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 </div>
 
 # Description
-Kisah Nabi API adalah sebuah API yg berguna untuk menampilkan Kisah dan Data Lain Dari Nabi Allah SWT
+KBBI API adalah sebuah API yg berguna untuk menampilkan data KBBI Lengkap
 
-Note : Semoga Bisa Menjadi Amal Jariyah Bagi Yg Membagikannya, Barakallah :)
+Note : Made By 13 y.o Coder
 
 
 | Description | Endpoint | 
 |------------ | ---------|
-| Example | https://kisahnabi-api-zhirrr.vercel.app/api/searchnabi?q=adam |
+| Example | https://kbbi-api-zhirrr.vercel.app/api/kbbi?text=pohon |
 
 
 # Installation
@@ -22,7 +22,7 @@ Jika Anda ingin menambahkan proyek ini di komputer Anda sendiri, Anda dapat meng
 
 1. Clone this repository
 ```
-git clone https://github.com/Zhirrr/kisahnabi-rest-api-indonesia.git
+git clone https://github.com/Zhirrr/kbbi-api-indonesia.git
 ```
 2. Install dependencies
 
