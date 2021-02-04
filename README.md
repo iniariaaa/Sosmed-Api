@@ -28,7 +28,7 @@ Jika Anda ingin menambahkan proyek ini di komputer Anda sendiri, Anda dapat meng
 
 1. Clone this repository
 ```
-git clone https://github.com/Zhirrr/kbbi-api-indonesia.git
+git clone https://github.com/Zhirrr/Downloader-Api.git
 ```
 2. Install dependencies
 
