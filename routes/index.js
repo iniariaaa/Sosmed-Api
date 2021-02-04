@@ -48,7 +48,7 @@ app.get("/api/tiktok", (req, res) => {
     });
 });
 
-app.get("/api/fb", (req, res) => {
+app.get("/api/yt", (req, res) => {
     const url = req.query.url
     res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
     setImmediate(() => {
@@ -61,7 +61,7 @@ app.get("/api/fb", (req, res) => {
             creator: "Zhirrr"
           });
         }else{
-          Zahir.FB(url)
+          Zahir.YT(link)
             .then((data) => {
               res.json(data);
             })
