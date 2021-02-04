@@ -4,7 +4,9 @@
  */
 
  const Tiktok = require('./Tiktok.js')
+ const FB = require('./FB.js')
 
  module.exports = {
-     Tiktok
+     Tiktok,
+     FB
  }
