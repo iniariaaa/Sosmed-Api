@@ -3,8 +3,8 @@
  * @license MIT
  */
 
- const searchNabi = require('./searchNabi.js')
+ const KBBI = require('./KBBI.js')
 
  module.exports = {
-     searchNabi
+     KBBI
  }
