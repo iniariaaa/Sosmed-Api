@@ -73,6 +73,30 @@ app.get("/api/yt", (req, res) => {
     });
 });
 
+app.get("/api/stalk", (req, res) => {
+    const username = req.query.username
+    res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
+    setImmediate(() => {
+      try {
+        if(username == '' || username == null){
+          res.status(400).send({
+            code: res.statusCode,
+            success: false,
+            message: "Query Gak Boleh Kosong!",
+            creator: "Zhirrr"
+          });
+        }else{
+          Zahir.IGS(username)
+            .then((data) => {
+              res.json(data);
+            })
+            .catch((err) => console.log(err));
+        }
+      } catch (e) {
+        res.status(400).send("Server Bermasalah Gan");
+      }
+    });
+});
 
 app.use(express.urlencoded({ extended: false }));
 app.listen(port, () => {
