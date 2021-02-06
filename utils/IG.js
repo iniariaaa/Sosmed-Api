@@ -3,10 +3,10 @@ const sID = process.env.sID;
 
 const options = {
     // Number of posts to scrape: {int default: 0}
-    count: 0,
+    count: 1,
 
     // Media type to scrape: ["image", "video", "all"]: {string default: 'all'}
-    mediaType: 'all',
+    mediaType: 'image',
 	
 	timeout: 0,
 
