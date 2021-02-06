@@ -5,10 +5,10 @@
 
  const Tiktok = require('./Tiktok.js')
  const YT = require('./YT.js')
- const IGS = require('./IGS.js')
+ const IG = require('./IG.js')
 
  module.exports = {
      Tiktok,
      YT,
-     IGS
+     IG
  }
