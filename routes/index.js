@@ -73,12 +73,12 @@ app.get("/api/yt", (req, res) => {
     });
 });
 
-app.get("/api/stalk", (req, res) => {
-    const username = req.query.username
+app.get("/api/ig", (req, res) => {
+    const url = req.query.url
     res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
     setImmediate(() => {
       try {
-        if(username == '' || username == null){
+        if(url == '' || url == null){
           res.status(400).send({
             code: res.statusCode,
             success: false,
@@ -86,7 +86,7 @@ app.get("/api/stalk", (req, res) => {
             creator: "Zhirrr"
           });
         }else{
-          Zahir.IGS(username)
+          Zahir.IG(url)
             .then((data) => {
               res.json(data);
             })
