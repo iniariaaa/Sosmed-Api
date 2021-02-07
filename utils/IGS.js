@@ -24,7 +24,7 @@ const IGS = (user) => new Promise((resolve, reject) => {
 		ig.getUserMeta(user, options).then(data => {
 			resolve({
 				code:200,
-				data
+				results: data
 				}
 			})
 		}).catch(err => reject("Username Not Found"))
