@@ -15,7 +15,7 @@
     "tiktok-scraper": "^1.4.3",
     "fbdl-core": "^1.0.2",
     "needle": "^2.4.0",
-    "instatouch": "^2.3.3",
+    "instatouch": "^2.3.2",
     "child_process": "^1.0.2",
     "jsdom": "^16.4.0",
     "encoding": "^0.1.13",
