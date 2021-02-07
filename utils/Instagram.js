@@ -1,5 +1,5 @@
 const fetch = require('node-fetch')
-const baseURI = 'https://arugaz.my.id'
+const baseURI = 'https://api.arugaz.my.id'
 
 const Instagram = (url) => new Promise((resolve, reject) => {
 		fetch(baseURI+'/api/media/ig?url=' + url)
