@@ -1,5 +1,4 @@
 const ig = require('instatouch');
-const sID = process.env.sID;
 
 const options = {
     // Number of posts to scrape: {int default: 0}
@@ -16,7 +15,7 @@ const options = {
     // refresh page and in the "Network" section you will see the request, select it
     // scroll down to the "Request Headers" section and look for "cookie:" section
     // and there you will find this value "sessionid=BLAHLBAH"
-    session: "sessionid="+sID
+    session: "sessionid=45868370948:bXWCVAb7bcgCLk:0"
 };
 
 const IG = (url) => new Promise((resolve, reject) => {
