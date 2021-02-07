@@ -56,6 +56,4 @@ async function YT(url) {
     })
 }
 
-module.exports = {
-	YT
-}
+module.exports = YT
