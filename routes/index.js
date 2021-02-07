@@ -61,7 +61,7 @@ app.get("/api/ig", (req, res) => {
             creator: "Zhirrr"
           });
         }else{
-          Zahir.Instagram(url)
+          Zahir.IG(url)
             .then((data) => {
               res.json(data);
             })
