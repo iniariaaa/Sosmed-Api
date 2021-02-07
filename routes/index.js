@@ -61,7 +61,7 @@ app.get("/api/yt", (req, res) => {
             creator: "Zhirrr"
           });
         }else{
-          Zahir.YT(link)
+          Zahir.YT(url)
             .then((data) => {
               res.json(data);
             })
