@@ -18,6 +18,7 @@
     "instatouch": "^2.3.3",
     "child_process": "^1.0.2",
     "jsdom": "^16.4.0",
+    "encoding": "^0.1.13",
     "express": "^4.17.1"
   },
   "devDependencies": {
