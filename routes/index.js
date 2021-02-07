@@ -48,31 +48,6 @@ app.get("/api/tiktok", (req, res) => {
     });
 });
 
-app.get("/api/yt", (req, res) => {
-    const url = req.query.url
-    res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
-    setImmediate(() => {
-      try {
-        if(url == '' || url == null){
-          res.status(400).send({
-            code: res.statusCode,
-            success: false,
-            message: "Query Gak Boleh Kosong!",
-            creator: "Zhirrr"
-          });
-        }else{
-          Zahir.YT(url)
-            .then((data) => {
-              res.json(data);
-            })
-            .catch((err) => console.log(err));
-        }
-      } catch (e) {
-        res.status(400).send("Server Bermasalah Gan");
-      }
-    });
-});
-
 app.get("/api/ig", (req, res) => {
     const url = req.query.url
     res.setHeader("Cache-Control", "public,max-age=3600,s-maxage=30");
@@ -86,7 +61,7 @@ app.get("/api/ig", (req, res) => {
             creator: "Zhirrr"
           });
         }else{
-          Zahir.IG(url)
+          Zahir.Instagram(url)
             .then((data) => {
               res.json(data);
             })
