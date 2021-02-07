@@ -1,28 +1,28 @@
 <div align="center">
-<h1>Downloader Rest API Official</h1>
+<h1>Social Media Rest API Official</h1>
 
-<p>Pengen Download Foto Atau Video Dari Sosmed?</p>
+<p>Pengen Download Foto Atau Video Dari Sosmed? Atau Ngestalk Orang?</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)]
 </div>
 
 # Description
-Downloader API adalah sebuah API yg berguna untuk mendownload foto atau video dari Sosmed
+Sosmed API adalah sebuah API yg berguna untuk mendownload foto atau video dari Sosmed, Stalk Orang, dan banyak tools lainnya dalam satu api beserta source nya lhoo !
 
 Note : Made By 13 y.o Coder
 
 
 | Description | Endpoint | 
 |------------ | ---------|
-| Tiktok | https://downloader-api-zhirrr.vercel.app/api/tiktok?url=https://www.tiktok.com/@bellapoarch/video/6871376520468794629 |
-| Instagram | https://downloader-api-zhirrr.vercel.app/api/ig?url=https://www.instagram.com/p/CK5Sx1IBBjV/ |
+| Download Tiktok | https://sosmed-api-zhirrr.vercel.app/api/tiktok?url=https://www.tiktok.com/@bellapoarch/video/6871376520468794629 |
+| Download Instagram | https://sosmed-api-zhirrr.vercel.app/api/ig?url=https://www.instagram.com/p/CK5Sx1IBBjV/ |
 
 
 ### List Menu
 | Menu | Check | 
 |------------ | ---------|
-| Tiktok | ✔️ |
-| Instagram | ✔️ |
+| Download Tiktok | ✔️ |
+| Download Instagram | ✔️ |
 
 
 # Installation
@@ -30,7 +30,7 @@ Jika Anda ingin menambahkan proyek ini di komputer Anda sendiri, Anda dapat meng
 
 1. Clone this repository
 ```
-git clone https://github.com/Zhirrr/Downloader-Api.git
+git clone https://github.com/Zhirrr/Sosmed-Api.git
 ```
 2. Install dependencies
 
