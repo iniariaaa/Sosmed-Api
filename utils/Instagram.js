@@ -1,5 +1,5 @@
 const fetch = require('node-fetch')
-const baseURI = 'https://api.arugaz.my.id'
+const baseURI = 'https://arugaz.my.id'
 
 module.exports.Instagram = function Instagram(url) {
 	return new Promise((resolve, reject) => {
