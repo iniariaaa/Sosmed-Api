@@ -4,11 +4,9 @@
  */
 
  const Tiktok = require('./Tiktok.js')
- const YT = require('./YT.js')
- const IG = require('./IG.js')
+ const Instagram = require('./Instagram.js')
 
  module.exports = {
      Tiktok,
-     YT,
-     IG
+     Instagram
  }
