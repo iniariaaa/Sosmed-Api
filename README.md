@@ -16,6 +16,7 @@ Note : Made By 13 y.o Coder
 |------------ | ---------|
 | Download Tiktok | https://sosmed-api-zhirrr.vercel.app/api/tiktok?url=https://www.tiktok.com/@bellapoarch/video/6871376520468794629 |
 | Download Instagram | https://sosmed-api-zhirrr.vercel.app/api/ig?url=https://www.instagram.com/p/CK5Sx1IBBjV/ |
+| Stalk Instagram | https://sosmed-api-zhirrr.vercel.app/api/ig/stalk?user=zhirr_ajalah |
 
 
 ### List Menu
@@ -23,6 +24,7 @@ Note : Made By 13 y.o Coder
 |------------ | ---------|
 | Download Tiktok | ✔️ |
 | Download Instagram | ✔️ |
+| Stalk Instagram | ✔️ |
 
 
 # Installation
